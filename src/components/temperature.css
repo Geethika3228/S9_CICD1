@@ -1,0 +1,59 @@
+/* WRAPPER */
+.temp-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+/* VIDEO BACKGROUND */
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* CARD */
+.temp-card {
+  position: relative;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  width: 420px;
+  padding: 30px;
+  border-radius: 16px;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+/* INPUT */
+.temp-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: none;
+  background: #333;
+  color: white;
+}
+
+/* BUTTON */
+.temp-card button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #4da6ff;
+  color: white;
+  cursor: pointer;
+}
+
+/* ERROR */
+.error {
+  margin-top: 10px;
+  color: red;
+}

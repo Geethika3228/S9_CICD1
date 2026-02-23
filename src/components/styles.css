@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+   background-image: url("../assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #003366;
+}
+
+/* Header */
+.head {
+  background: linear-gradient(135deg, #6fb9ff, #a6d6ff);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.header-line {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #f4fbff;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+
+.head a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.head a:hover {
+  text-decoration: underline;
+}
+
+.head h3 {
+  color: #fdfefe;
+  margin-top: 10px;
+}
+
+/* Page Card */
+.card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+/* Inputs & Buttons */
+input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 8px;
+  border: 1px solid #b3d9ff;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #5dade2, #85c1ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+}
+.page {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  width: 420px;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #4da6ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
